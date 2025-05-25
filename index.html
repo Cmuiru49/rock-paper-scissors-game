@@ -5,36 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RPS game</title>
     <link rel="stylesheet" href="style.css" />
-    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="game-container">
-        <div class="game-header">
-      <div class="left">2025 <a href="#">Caroline Wanjiku</a></div>
-      <div class="right">computer 0 0 player</div>
-    </div>
-
-    <div class="play-section">
-      <div class="hand">
-        <h2>computer</h2>
-        <div class="emoji-box" id="computer-choice">✌️</div>
+      <div class="game-header">
+        <div class="left">2025 <a href="#">Caroline Wanjiku</a></div>
+        <div class="right">computer 0 0 player</div>
       </div>
 
-      <div class="result" id="result">Currently Draw</div>
+      <div class="play-section">
+        <div class="hand">
+          <h2>computer</h2>
+          <div class="emoji-box" id="computer-choice">✌️</div>
+        </div>
 
-      <div class="hand">
-        <h2>player</h2>
-        <div class="emoji-box" id="player-choice">✌️</div>
+        <div class="result" id="result">Currently Draw</div>
+
+        <div class="hand">
+          <h2>player</h2>
+          <div class="emoji-box" id="player-choice">✌️</div>
+        </div>
       </div>
-    </div>
 
-    <div class="emoji-buttons">
-      <button class="choice-button" data-choice="rock">✊<br />Rock</button>
-      <button class="choice-button" data-choice="paper">✋<br />Paper</button>
-      <button class="choice-button" data-choice="scissors">
-        ✌️<br />Scissors
-      </button>
-    </div>
+      <div class="emoji-buttons">
+        <button class="choice-button" data-choice="rock">
+          <span class="emoji">✊</span>
+          <span class="label">Rock</span>
+        </button>
+        <button class="choice-button" data-choice="paper">
+          <span class="emoji">✋</span>
+          <span class="label">Paper</span>
+        </button>
+        <button class="choice-button" data-choice="scissors">
+          <span class="emoji">✌️</span>
+          <span class="label">Scissors</span>
+        </button>
+      </div>
     </div>
     <script src="game.js"></script>
   </body>

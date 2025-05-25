@@ -9,7 +9,7 @@ html{
 }
 body{
     font-size: 1.6rem;
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'Press Start 2P', cursive;
     
 }
 
@@ -24,8 +24,8 @@ body{
     justify-content:space-between;
     align-items: center;
     padding: 2rem 1.5rem;
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.3rem;
+    font-weight: 30;
 
 
 }
@@ -62,16 +62,30 @@ h2{
     justify-content: center;
     text-align: center;
     gap: 20px;
-    
+    display: flex;
     padding-bottom: 3rem;
 }
 .choice-button{
     font-size: 3rem;
     border-radius: 1rem;
+    display: flex;
     background-color: white;
     border: none;
-    font-family: 'Press Start 2P', monospace;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 10rem;
+    width: 10rem;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
 
+}
+.choice-button .emoji {
+    font-size: 3.5rem;
+}
+
+.choice-button .label {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
 }
 
 
