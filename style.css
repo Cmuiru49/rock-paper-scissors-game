@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Press Start 2P', monospace;
+    
+}
+
+.game-container{
+    width: 50%;
+    margin: 0 auto;
+    background-color: greenyellow;
+    height: 100%;
+}
+.game-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+
+}
+/*playing section*/
+.play-section{
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+.hand{
+    margin: 2rem 0;
+}
+h2{
+    text-transform: capitalize;
+}
+.emoji-box{
+    border: black dotted;
+    font-size: 6rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+.result{
+    background-color: rgb(250, 204, 117);
+    padding: 2rem 0;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family:'Press Start 2P', monospace;
+
+}
+/*choosing an emoji*/
+.emoji-buttons{
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+    padding-bottom: 3rem;
+}
+.choice-button{
+    font-size: 3rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: none;
+    font-family: 'Press Start 2P', monospace;
+
+}
+
+
+
